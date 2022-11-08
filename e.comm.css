@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+  font-family: sans-serif;
+}
+body{
+    background-color: blue;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+   background-color: black;
+   color: wheat;
+   padding:20px;
+}
+nav h1{
+    font-size: 40px;
+    color:red;
+    margin-top: -10px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin-inline: 35px;
+    list-style: none;
+    font-size: 20px;
+}
+nav ul li a{
+    color:red;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color:pink;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    width:550px;
+    height: 520px;
+    background-color: rgb(255,224,229);
+    text-align: center;
+}
+.text h1{
+    margin-top:80px;
+    font-size: 50px;
+}
+.text h2{
+    margin-top:10px;
+    font-size: 30px;
+}
+.text h3{
+    margin-top:70px;
+    font-size: 50px;
+}
+.text button{
+    width:140px;
+    height:40px;
+    background-color: transparent;
+    color:black;
+    font-size: 22px;
+    margin-top: 30px;
+}
+.text button:hover{
+    background-color: black;
+    color:white;
+}
+.text2{
+    width:550px;
+    height: 520px;
+    background-color: rgb(181,212,254,0.85);
+    text-align: center;
+}
+.text2 h1{
+    margin-top:80px;
+    font-size: 50px;
+}
+.text2 h2{
+    margin-top:10px;
+    font-size: 30px;
+}
+.text2 h3{
+    margin-top:70px;
+    font-size: 50px;
+}
+.text2 button{
+    width:140px;
+    height:40px;
+    background-color: transparent;
+    color:black;
+    font-size: 22px;
+    margin-top: 30px;
+}
+.text2 button:hover{
+    background-color: black;
+    color:white;
+}
+.img-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.img-div .card{
+    margin-inline: 10px;
+    text-align: center;
+}
+.img-div .card:hover{
+    margin-top: -10px;
+}
+.card h1{
+    background-color: rgb(232,219,219);
+    font-size: 25px;
+    margin-top:-5px;
+    padding: 10px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+   margin-top: 80px;
+   background-color: black;
+   padding: 30px;
+}
+.items .ACC{
+     margin-inline: 20px;
+     color:white;
+     text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: aqua;
+}
+.footer .point{
+    border-left: 2px solid black;
+    margin:20px;
+    
+}
+ h2{
+    margin-top: 10px;
+    color:red; 
+    text-align: center;
+}
+.point h3{
+    color:red;
+    margin-left: 22px;
+
+}
+.footer .point li{
+    color:orange;
+    margin:2px;
+    list-style:none;
+}
